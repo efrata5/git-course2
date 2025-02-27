@@ -27,3 +27,11 @@ print(phrase.replace("giraffe","elephant"))
 print(3+4+5)
 my_num=-5
 print(abs(my_num))
+
+#user input
+message=input("write something I will reapeat back to you ")
+print(message)
+name=input("enter your name")
+print("hello " + name)
+age=input("how old are you")
+print("I am " + age +" years old")

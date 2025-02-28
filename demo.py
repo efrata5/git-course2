@@ -58,4 +58,26 @@ elif operators == "add" :
     result = num1 + num2
     print(result)
 else:
-    print("invalid ")
+    print("invalid ")  
+
+
+
+
+shopping=("welcom to our shopping center ! \n what would you like to buy")
+print(shopping)
+item="1.add an item"
+print(item)
+shopp=("what you like to buy")
+print(shopp)
+shopping_list=input("enter your choice (1/2/3)")
+print(shopping_list)
+
+if shopping_list == "1":
+    
+    print("apple")
+elif shopping_list == "2":
+    print("banna" "\n" "apple")
+    
+elif shopping_list == "3":
+    print("apple" "\n" "banna" "\n" "orange")
+    

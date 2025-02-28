@@ -28,13 +28,13 @@ print(3+4+5)
 my_num=-5
 print(abs(my_num))
 
-#user input
+#user if statement by usr input
 message=input("write something I will reapeat back to you ")
 print(message)
 name=input("enter your name")
 print("hello " + name)
 
-age=input("enter your age")
+age=input("enter your age :")
 age=int(age)
 print(age)
 
@@ -69,7 +69,7 @@ item="1.add an item"
 print(item)
 shopp=("what you like to buy")
 print(shopp)
-shopping_list=input("enter your choice (1/2/3)")
+shopping_list=input("enter your choice (1/2/3) :")
 print(shopping_list)
 
 if shopping_list == "1":
@@ -80,4 +80,34 @@ elif shopping_list == "2":
     
 elif shopping_list == "3":
     print("apple" "\n" "banna" "\n" "orange")
-    
+else:
+    print("invalid")
+    #variables simple examples
+print("navini's ")
+name=("my name is EFrata ")
+print(name)
+message=("what are you doing now")
+print(message)
+good=("keep going you are good now")
+print(good)
+good=("youtube")
+print(good[0:2])
+print(good[0 :])
+print(good[ :6])
+first_name="Efrata"
+second_name="gebrameskel"
+print(first_name + " "  + second_name.lstrip())
+text='hello efi "would you like to learn python today"'
+print(text)
+message="efi"
+print(message.lower())
+print(message.upper())
+print(message.title())
+person_name='Alberte said, "a person who never made a mistake never tried annything again" '
+print(person_name)
+print(5+3)
+print(12-4)
+print(2*4)
+print(16/2)
+num="2"
+print(num +" is my favourite number")

@@ -33,5 +33,13 @@ message=input("write something I will reapeat back to you ")
 print(message)
 name=input("enter your name")
 print("hello " + name)
-age=input("how old are you")
-print("I am " + age +" years old")
+
+age=input("enter your age")
+print(age)
+age =42
+age == 42
+if age >=int(18) : 
+    print("you can vote")
+else:
+    print("you can not vote")
+

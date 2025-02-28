@@ -35,10 +35,10 @@ name=input("enter your name")
 print("hello " + name)
 
 age=input("enter your age")
+age=int(age)
 print(age)
-age =42
-age == 42
-if age >=int(18) : 
+
+if age>=18:
     print("you can vote")
 else:
     print("you can not vote")

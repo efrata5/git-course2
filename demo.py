@@ -31,7 +31,7 @@ print(abs(my_num))
 #user if statement by usr input
 message=input("write something I will reapeat back to you ")
 print(message)
-name=input("enter your name")
+name=input("enter your name :")
 print("hello " + name)
 
 age=input("enter your age :")
@@ -111,3 +111,14 @@ print(2*4)
 print(16/2)
 num="2"
 print(num +" is my favourite number")
+
+#list 
+name=["Alazare","Baroc","Yordi"]
+print("hello " + name[0] )
+print("hello " + name[1])
+print("hello " + name[2])
+num=["2","3","4"]
+print(num)
+print(num[0])
+number=[2.3,"efrata",5]
+print(number)

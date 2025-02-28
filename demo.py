@@ -42,4 +42,20 @@ if age>=18:
     print("you can vote")
 else:
     print("you can not vote")
-
+num1=int(input("enter a number one :"))
+print(num1)
+num2=int(input("enter number two :"))
+print(num2)
+operators=input("choose maths operators (sub, mult,add): ")
+print(operators)
+if operators == "sub":
+    result = num1-num2
+    print(result)
+elif operators == "mult":
+    result = num1*num2
+    print(result)
+elif operators == "add" :
+    result = num1 + num2
+    print(result)
+else:
+    print("invalid ")

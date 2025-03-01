@@ -122,3 +122,22 @@ print(num)
 print(num[0])
 number=[2.3,"efrata",5]
 print(number)
+car=["toyota","vitize","suzuki"]
+print(car)
+car[0]="taxi"
+print(car)
+car.append("bajaja")
+print(car)
+car.append("hiluk")
+print(car)
+motorcycle=[]
+motorcycle.append('honda')
+motorcycle.append("ducati")
+motorcycle.append("yamaha")
+print(motorcycle)
+motorcycle.insert(0,"suzuki")
+print(motorcycle)
+del motorcycle[0]
+print(motorcycle)
+del motorcycle[1]
+print(motorcycle)

@@ -1,7 +1,5 @@
-get the user data...
-process the data
-coding is fun
+get id from the user
+process it 
 
 
-create avator  for user
-
+make avater based on user id number

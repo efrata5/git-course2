@@ -134,10 +134,56 @@ motorcycle=[]
 motorcycle.append('honda')
 motorcycle.append("ducati")
 motorcycle.append("yamaha")
+motorcycle.append("kiya")
 print(motorcycle)
-motorcycle.insert(0,"suzuki")
+car=motorcycle.insert(0,"suzuki")
+print(f"the list of motorcycle {car}")
+
 print(motorcycle)
 del motorcycle[0]
 print(motorcycle)
 del motorcycle[1]
 print(motorcycle)
+car= motorcycle.pop()
+print( f"i bought in motorcycle hall {car}")
+car=motorcycle.pop(0)
+print(car)
+
+dinner=["fetsa","fikire","mesere","etsub","messega"]
+print(dinner)
+inivite=dinner.pop(0)
+print(f" {inivite} I appologize I can not to come soryy I have a lot of work ")
+print(dinner)
+dinner[0]="beti"
+print(dinner)
+dinner.insert(0,"nani")
+dinner.insert(3,"bubu")
+dinner.append("etab")
+print(dinner)
+invit=','.join(dinner)
+print(f"these is my new inivitation card i inivite all of you {invit} ")
+print("you can inivit only two people for dinner")
+can=dinner.pop(0)
+inivites=dinner.pop(1)
+very=dinner.pop(2)
+you=dinner.pop(3)
+every=dinner.pop()
+print(f"soryy you can not come to my dinner {inivites},{can},{very},{you},{every}")
+efisha= ','.join(dinner)
+print(f"  others to of you are invited to my dinner program {efisha}")
+del dinner[0:]
+print(dinner)
+num=[3,5,90,1,0]
+num.sort()
+print(num)
+num.reverse()
+print(num)
+num.extend([2,4,5])
+print(num)
+num.sort()
+print(num)
+
+tup=(2,4,3,5,5)
+tup.count(5)
+print(tup)
+

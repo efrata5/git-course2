@@ -184,6 +184,22 @@ num.sort()
 print(num)
 
 tup=(2,4,3,5,5)
-tup.count(5)
 print(tup)
+num=5
+efi=type(num)
+print(efi)
+a=4.4
+b=int(a)
+print(b)
+c=complex(a,b)
+print(c)
+math=a<b
+print(math)
+#dictionaries
+great={"efi" :"phone","enu":"laptop"}
+print(great["efi"])
+print(great["enu"])
+alien_0={"color":"green","point":5}
+efi=alien_0["point"]
+print(f"you was just earned {efi} points")
 

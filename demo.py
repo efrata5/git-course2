@@ -65,11 +65,13 @@ else:
 
 shopping=("welcom to our shopping center ! \n what would you like to buy")
 print(shopping)
-item="1.add an item"
-print(item)
+
+shopping_list=["apple","bannana","orange"]
+navin=",".join(shopping_list)
+print(navin)
 shopp=("what you like to buy")
 print(shopp)
-shopping_list=input("enter your choice (1/2/3) :")
+shopping_list=input("enter your choice number of items (1/2/3) :")
 print(shopping_list)
 
 if shopping_list == "1":
@@ -202,4 +204,27 @@ print(great["enu"])
 alien_0={"color":"green","point":5}
 efi=alien_0["point"]
 print(f"you was just earned {efi} points")
+info={"first_name":"Efrata","last_name":"gebremeskel","age":"22","city":"jimmma"}
+print("my name is " + info["first_name"] + " "   + info["last_name"] + " I am "+ info["age"] + " years old " +"I live in " + info["city"])
+#sorting with an empty dictionary
+person={}
+person["name"]="Abel"
+person["last"]="gebra"
+person["nickname"]="dj"
+person["age"]="45"
+print(person["name"] + " " + person["last"] +" " +person["nickname"] + " " + person["age"])
 
+programin = {"meta":"js","pri":"python","inc":"c+"}
+choice=input("which language do you want to learn (1/2/3) :")
+
+
+if choice == "1":
+    print(programin["meta"])
+    
+elif choice == "2":
+    print(programin["pri"])
+
+elif choice == "3":
+    print(programin["inc"])
+else:
+    print("not yet")

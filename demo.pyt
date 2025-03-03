@@ -116,17 +116,15 @@ for k in arr:
         break
 k +=1
 print(arr.index(n))
-from numpy import*
-arr=array([[1,2,3],[4,5,6]])
-print(arr)
+
 #summary for array
 from array import *
 num=([1,2,3])
 print(num)
 #by using for for array
 from array import*
-by=([1,2,3])
-for b in range(2):
+by=([1,2,3,7])
+for b in range(6):
     print(b)
 
 

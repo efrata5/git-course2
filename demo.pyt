@@ -182,3 +182,81 @@ def sar(a,*b):# astrick it  write  a lot of value n we can not tuple so we must 
         c=c+d
         print(c)
 sar(1,2,3,4)
+def person(name,**data):#astrick two show added the value  to some variable
+      print(name) 
+      
+      for e,a in data.items():
+          print(e,a)
+          
+
+person(name="efrata",age=22,phone=78909)
+
+y=10 #here we assign globally and local concept
+def something():
+    x=15 #if we do not have these value we can access globaly the output is the out if we do not have these  when you write here globale you value it is using the global not the local one
+    print("local value ",x)
+something()
+print("we can access globaly",y)
+def count(lst):
+    
+    even=0
+    odd=0
+    for i in lst:
+        if i%2 ==0:
+            even +=1
+    else:
+        odd +=1
+    return even,odd
+    
+lst=[8,2,3,4]
+even,odd=count(lst)
+print(even)
+print(odd)
+
+#fibonoc sequence
+def fib(n):
+    a=0
+    b=1
+    if n == 1:
+        print(a)
+    else:
+        print(a)
+        print(b)
+        for i in range(n):
+            c=a+b
+            a=b
+            b=a
+            print(c)
+             
+fib(4)
+#factorial
+def fact(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+    
+x=4
+result=fact(x)
+print(result)
+
+#Recursion
+
+
+
+def fact(n):
+    if(n==0):
+        return 1
+
+    return n*fact(n-1)
+result=fact(5)
+print(result)
+f=lambda a,b :a+b     #function with out name it is cuold lambda
+result=f(3,4)
+print(result)
+    #filter what you are asking then only print it
+def is_even(n):
+    return n%2==0
+num=[1,2,4,5,8]
+efi=list(filter(is_even,num))
+print(efi)

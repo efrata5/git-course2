@@ -97,7 +97,7 @@ else:
     print("not found")
 #array
 import array as arr #you write these because python is not know array by default so you have to mention it
-arr=("i",[1,2,3,4,])
+arr=("i",[1,2,3,4])
 print(arr)
 from array import* #now we can use any variable name here becuse astrick means you can use any vaariable name
 arr=([])
@@ -124,7 +124,61 @@ print(num)
 #by using for for array
 from array import*
 by=([1,2,3,7])
-for b in range(6):
+for b in range(2):
     print(b)
+import numpy as np
+array=np.array([[1,2,3],
+      [4,5,6]])
+print(array)
+#copy arrays
+from numpy import*
+arr=[1,2,3]
+arr2=arr
+print(arr2)
+print(arr)
+print(log(arr))
+print(max(arr))
+arr3=sum(arr + arr2)
+print(arr3)
+#we are coping from the first array now we want different adress but they are the same number am gonna do now write view
+print(id(arr))
+print(id(arr2))
 
+#working with matrix .ndim it gives dimmention and also .shape it gives the shape of rowa and columns and size it give the size of inside if you want to change 2 dimmentional in one dimentionale use dot flatted
+from numpy import*
+arr1=array([
 
+        [1,2,3],
+        [4,5,6]
+           ])
+print(arr1.ndim)
+#shortcute you do not need separate array here is a shortcut to write a matric it give the size  of like the previous one
+import numpy as np
+m = np.matrix([[1,2,3,4],[7,8,9,10]])
+
+print(m)
+#function use always def to define function
+def greating():
+    print("good")
+    print("morning")
+greating()
+def add_sub(x,y):
+    c=x+y
+    d=x-y
+    return c,d
+result=add_sub(5,4)
+print(result)
+
+def sent():
+    print("what are you learnng about in this chapter")
+sent()
+def fav(c):
+    
+    print("one of my favourity thing in my life is raeding a " +c)
+fav("bible")
+def sar(a,*b):# astrick it  write  a lot of value n we can not tuple so we must use for
+    c=a
+    for d in b:
+        c=c+d
+        print(c)
+sar(1,2,3,4)

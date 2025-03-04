@@ -102,3 +102,26 @@ class Laptop: #Open another claa inside class
 s1=Students("Fetsa",2)
 s2=Students("Ruth",3)
 s1.show()
+
+class Restaurant:
+        def __init__(self,restaurant_name,cuisine_type):
+            self.restuarant_name=restaurant_name
+            self.cuisine_type=cuisine_type
+        def describe_restuarant(self):
+            print(" Restuarant Name : " + self.restuarant_name ,"\n",
+            "Cuisine Type : " +self.cuisine_type)
+        def open_restuarant(self):
+            print("The restuarant is now open!")
+restuarant=Restaurant("Haile","chines")
+restuarant.describe_restuarant()
+restuarant.open_restuarant()
+restuarant1=Restaurant("Central","kitfo")
+resturant2=Restaurant("varayity","doro")
+resturant3=Restaurant("Skylight","gebta")
+restuarant1.describe_restuarant()
+restuarant1.open_restuarant()
+resturant2.describe_restuarant()
+resturant2.open_restuarant()
+resturant3.describe_restuarant()
+resturant3.open_restuarant()
+

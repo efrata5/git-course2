@@ -283,3 +283,11 @@ print(c)
 from Calc import*
 print(main)
 print("world")
+
+#class it use to define our classs  let me show you some exercise
+class computer:
+    def config(self):
+        print("i5,16gb,1TB")
+
+com1=computer()
+print(type(com1))

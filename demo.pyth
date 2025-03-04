@@ -1,4 +1,0 @@
-#more summary for array
-from array import*
-num=([1,2,3])
-print(num)

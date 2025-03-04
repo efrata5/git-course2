@@ -254,9 +254,32 @@ print(result)
 f=lambda a,b :a+b     #function with out name it is cuold lambda
 result=f(3,4)
 print(result)
-    #filter what you are asking then only print it
+#filter what you are asking then only print it
 def is_even(n):
     return n%2==0
 num=[1,2,4,5,8]
 efi=list(filter(is_even,num))
 print(efi)
+
+#using lambda for filter more you will code be beuti
+num=[3,2,4,5,6,8]
+efi=list(filter(lambda n : n%2==0,num))
+double=list(map(lambda n :n*2,efi))#these is good way and the cools and simplest way it replace a function
+print(efi)
+print(double)
+from functools import reduce
+sum=(reduce(lambda a,b :a+b,double))#here it defines the values
+print(sum)
+#exercise lambda
+men=[1,2,3,4,5,]
+miy=(reduce(lambda a,c :a-c,men))
+print(miy)
+#shortcute using modules
+from Calc import* #these come from i open file the name of my file is calc  
+a=9
+b=7
+c=a+b
+print(c) 
+from Calc import*
+print(main)
+print("world")

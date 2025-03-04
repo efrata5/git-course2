@@ -291,3 +291,5 @@ class computer:
 
 com1=computer()
 print(type(com1))
+
+#inheritance

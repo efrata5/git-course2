@@ -104,24 +104,41 @@ s2=Students("Ruth",3)
 s1.show()
 
 class Restaurant:
-        def __init__(self,restaurant_name,cuisine_type):
+        def __init__(self,restaurant_name,cuisine_type,number_served,number):
             self.restuarant_name=restaurant_name
             self.cuisine_type=cuisine_type
+            self.number_serve=0
+            self.number_served=number_served
+            self.number=number
         def describe_restuarant(self):
             print(" Restuarant Name : " + self.restuarant_name ,"\n",
-            "Cuisine Type : " +self.cuisine_type)
+            "Cuisine Type : " +self.cuisine_type,"\n""The number of  customers served :",self.number_serve)
         def open_restuarant(self):
             print("The restuarant is now open!")
-restuarant=Restaurant("Haile","chines")
+        def set_number_served(self):
+            print("number of served customer :",self.number_served)
+        def increment_number_served(self):
+            print("the number of custmors are increasing :",self.number)
+
+restuarant=Restaurant("Haile","chines",4,8)
 restuarant.describe_restuarant()
 restuarant.open_restuarant()
-restuarant1=Restaurant("Central","kitfo")
-resturant2=Restaurant("varayity","doro")
-resturant3=Restaurant("Skylight","gebta")
+restuarant.set_number_served()
+restuarant.increment_number_served()
+
+restuarant1=Restaurant("Central","kitfo",5,10)
+resturant2=Restaurant("varayity","doro",6,12)
+resturant3=Restaurant("Skylight","gebta",7,14)
 restuarant1.describe_restuarant()
 restuarant1.open_restuarant()
+restuarant1.set_number_served()
+restuarant1.increment_number_served()
 resturant2.describe_restuarant()
+resturant2.set_number_served()
+resturant2.increment_number_served()
 resturant2.open_restuarant()
 resturant3.describe_restuarant()
 resturant3.open_restuarant()
+resturant3.set_number_served()
+resturant3.increment_number_served()
 

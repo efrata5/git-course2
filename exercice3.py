@@ -37,3 +37,66 @@ print("the sum of two number is =",n1+n2)
 n=int(input("enter a number :"))
 b=float(input("enter a number"))
 print(n+b)
+a,b,c,d=10,20,30,40
+print(a,b,c,d,sep=',')
+print(a,b,c,d, sep=':')
+print(a,b,c,d, sep='')
+print(a,b,c,d,sep='---')
+a=10
+b=3
+print(a%b)
+print(a//b)
+x=5
+b=4
+z=a<b
+print(z)
+a=0
+b-1
+z=a!=0 and (b/a)>0
+print(z)
+c=5
+d=3
+e=c^d
+print(e)
+#if statement
+divided=eval(input("enter a first number : "))
+divisour=eval(input("enter a divisour number : "))
+if divisour !=0:
+    d=divided/divisour
+    print(d)
+else:  
+     print("not divide")
+a,b,c,d=20,20,30,30
+if a==b:
+    
+      if c==d:
+           
+         print("same")
+      else:
+               print("they are not the same")
+#by using if and else write a good  dialog
+j="hi there may i ask you a quistion?"
+print(j)
+niya=str(input("hi there "))
+yes="giving permition"
+if niya==yes:
+     print("yes you can")
+
+else:
+     print("no you can  not")
+#months
+month=int(input("enter a numbers of months(1/2/3/)"))
+if  month==1:
+     print("feburary")
+elif month==2:
+     print("march")
+elif month==3:
+     print("june")
+
+
+#while loop
+i=0
+while i<5:
+     print(i)
+     i+=1
+    

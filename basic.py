@@ -54,11 +54,12 @@ num=int(input("enter a number : "))
 st=str(input("ente a string word : "))
 num=py()
 print(num)
-#exercise 
-x=int(input("How many candies you want "))
-i=0
-while i<5:
-   print(i)
-   i +=1
-   
-      
+#function
+def cos():
+   print("salary")
+def perc():
+      price=0.8*y
+      return price
+y=int(input("enter a full salary : "))   
+y=perc() 
+print(y)

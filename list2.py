@@ -5,5 +5,5 @@ age=int(input("enter your age :"))
 user={"name":"enter","age":"enter2"}
 print(name)
 print(age)
-digit=dict(four=4,five=5,six=6)
-print(digit)
+digit=dict(four=4,five=5,six=6)#dictionaries it return original dictionary
+print

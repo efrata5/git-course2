@@ -29,7 +29,7 @@ def search(list,n):
                return True
           return False
 
-n=2
+
 if search(list,n):
      print("found")
 else:

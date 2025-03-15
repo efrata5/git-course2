@@ -62,6 +62,93 @@ class Animal:
         print("i am an animal")
     def i_eat(self):
         print("i eat food")
+class Dog(Animal):
+    def __init__(self):
+        super().__init__()#here it prinit animal created
+        print("dog created")
+    def who_am_i(self):
+        print("i am a dog")
+        
 d=Animal()
+e=Dog()
+e.who_am_i()
 d.who_am()
 d.i_eat()
+class Pycharm:
+    def execute(self):
+        print("running")
+        print("coding")
+class Mystudy:
+    def execute(self):
+        print("walkiing it like a duck")
+        print("running")
+        print("coding")
+class Laptop:
+    def code(self,ide):
+        ide.execute()
+ide=Pycharm()
+ide=Mystudy()
+lap1=Laptop()
+lap1.code(ide)
+lap1.code(ide)
+
+class Book:
+    def __init__(self,title,author,page):
+        self.author=author
+        self.page=page
+        self.title=title
+    def __str__(self):
+        return f"{self.title} by {self.author}"
+    def __len__(self):
+        return self.page
+b=Book('neverstop','joel',200)
+print(b)
+print(len(b))
+#homework
+class Mathe:
+    def __init__(self,cor1,cor2):
+        self.cor2=cor2
+        self.cor1=cor1
+    
+    def distance(self):
+        return self.cor1 +self.cor2
+    def slope(self):
+        return (self.cor2[1]-self.cor1[1])/(self.cor2[0]-self.cor1[0])
+
+
+d=Mathe((3,2),(4,5))
+print(d.distance())
+print(d.slope())
+#account
+
+class Account:
+     bank="awash"
+     def __init__(self, owner, balance):
+        self.balance = balance
+        self.owner = owner
+        
+     def deposit(self, dep_amt):
+
+      self.balance += dep_amt
+      print(f"Deposited: {dep_amt}. New balance: {self.balance}")
+
+     def withdraw(self, withdraw_amt):
+
+        if self.balance >= withdraw_amt:
+           self.balance -= withdraw_amt
+        print(f"Withdrew: {withdraw_amt}. New balance: {self.balance}")
+     @classmethod  
+     def info(cls):
+         return cls.bank
+
+
+d = Account("Habti", 400,)
+
+
+
+d.deposit(200)
+d.withdraw(50)
+print(Account.info())
+from colorama import init,Fore
+init()
+print(Fore.RED + "efi")

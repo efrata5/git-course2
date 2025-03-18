@@ -35,7 +35,9 @@ def ask():
        
 
 ask()
-a=1
-b=2
-print(a)
-print(b)
+#yield
+def gen(n):
+    for x in range(n):
+        yield x**3
+
+gen(2)
